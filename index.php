@@ -72,7 +72,7 @@ if($login_button == true){
       background-color: #3b5998;
   border: none;
   color: white;
-  padding: 15px 24px;
+  padding: 15px 23px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
