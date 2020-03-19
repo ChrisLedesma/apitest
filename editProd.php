@@ -91,7 +91,7 @@ $list1 = $data1['records'];
       </div>                       
  </div>
 
-<div class="div-align-buttons">
+<div class="div-align-button">
    <input type="submit" name="submit" value="Update"/> 
 </div>
 </form>     
