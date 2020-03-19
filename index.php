@@ -131,8 +131,8 @@ font-size: 24px;
                 break;
           }
         }else{
-          echo '<br><br><br><br><div align="center"><h1>You must login first before<br>
-	       accessing this site!<br><br><Br></h1>'.$login_button . '</div>';
+          echo '<br><br><br><br><div align="center"><h1>You must first login before<br>
+	       accessing this site.<br><br><Br></h1>'.$login_button . '</div>';
         }
         ?>
 	       <br><br>
