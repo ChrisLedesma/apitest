@@ -43,12 +43,11 @@ $list = $data['records'];
 
    <div class="empty-view"></div>
 <div class="header-top"><h1>Add Product</h1></div>
-
+<form action="addProd_pro.php" method="POST">
 <div class="contain">
-   <form action="addProd_pro.php" method="POST">
       <div class="info-row">
          <div class="info" style="color: #45a29e;"><h2>Name:</h2></div>
-         <div class="info"><input type="text" name="name" placeholder="name" required/</div>
+         <div class="info"><input type="text" name="name" placeholder="name" required/></div>
       </div>
       <div class="info-row">
          <div class="info" style="color: #45a29e;">
@@ -71,7 +70,7 @@ $list = $data['records'];
              <h2>Category:</h2>
          </div>
           <div class="info">
-             <select name="category" required>
+             <select name="category" required/>
                 <?php
                     foreach($list as $value){?>
                     <option value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
