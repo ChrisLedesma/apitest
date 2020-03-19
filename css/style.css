@@ -6,7 +6,7 @@ a {
   text-decoration: none;
   color: lightblue;
 }
-input[type=button], input[type=submit], input[type=reset], input[type=number], input[type=select] .button-custom {
+input[type=button], input[type=submit], input[type=reset], input[type=number], input[type=select], .button-custom {
   background-color: darkslategrey;
   border: none;
   border-radius: 5px;
