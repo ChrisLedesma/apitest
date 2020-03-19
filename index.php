@@ -34,7 +34,11 @@ if($login_button == true){
 	}
 	tr:nth-child(even) {background-color: #141a20;}
 	a {
-		color: #66fcf1;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+	}
+	a:hover {
+		color: #45a29e;
 	}
 	select{
 		height: 2rem;
@@ -77,7 +81,7 @@ font-size: 24px;
 <body id="bodyfit">
 <div id="wrap-admin">
             <div class="sticky-content">
-                <h2 class="welcomeheader">API Test</h2>
+                <h2 class="welcomeheader">INVENTORY</h2>
                 <div class="empty-small"></div>
                 <ul>
                     <li><a href="index.php?module=home">Home</a></li>  
