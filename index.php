@@ -81,7 +81,7 @@ font-size: 24px;
 <body id="bodyfit">
 <div id="wrap-admin">
             <div class="sticky-content">
-                <h2 class="welcomeheader">INVENTORY</h2>
+                <h1 class="welcomeheader">INVENTORY</h1>
                 <div class="empty-small"></div>
                 <ul>
                     <li><a href="index.php?module=home">Home</a></li>  
