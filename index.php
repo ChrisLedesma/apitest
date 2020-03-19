@@ -80,7 +80,8 @@ font-size: 24px;
   cursor: pointer;
 }
 	.login-font{
-	font-size: 24px;
+	font-size: 48px;
+	font-wieght: bold;
 	}
 	</style>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
