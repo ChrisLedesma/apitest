@@ -9,7 +9,7 @@
   <h1>Profile Picture</h1>
   </div>
 </div>
-<h1>Name: <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?> </h1>
-<h1>Email: <?php echo $_SESSION['user_email_address'] ?></h1>
+<h2>Welcome!: <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?> </h2>
+//Email: <?php echo $_SESSION['user_email_address'] ?>
 
-<h1><a href="signout.php">Logout</a></h1>
+<h3><a href="signout.php">Logout</a></h3>
