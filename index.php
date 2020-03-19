@@ -72,7 +72,7 @@ font-size: 24px;
       background-color: #3b5998;
   border: none;
   color: white;
-  padding: 15px 23.05px;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
