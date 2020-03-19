@@ -8,6 +8,16 @@ $list = $details['records'];
 
 ?>
 <style>
+   .contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(46, 49, 51);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+    padding: 5vh 0vh 5vh 0vh;
+   }
    .info-row{
       margin: 0 auto; 
       margin-bottom: 5vh;
@@ -21,7 +31,7 @@ $list = $details['records'];
       margin-bottom: 5vh;
       width: 70%; 
       display: flex; 
-      flex-direction: row; 
+      flex-direction: column; 
       justify-content: flex-start;
    }
    .info{
@@ -34,7 +44,7 @@ $list = $details['records'];
    <div class="empty-view"></div>
 <div class="header-top"><h1>Product Profile</h1></div>
 
-<div style="width: 100%;display: flex; flex-direction: column;">
+<div class="contain">
    <div class="info-row">
       <div class="info"><h2>Name:</h2></div>
       <div class="info"><h2><?php echo $list['name'];?></h2></div>
