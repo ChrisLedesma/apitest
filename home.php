@@ -1,6 +1,6 @@
 <style>
   .sticky-content{
-    displaY: hidden;
+    displaY: none;
   }
 </style>
 
