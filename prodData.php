@@ -11,9 +11,9 @@ $list = $details['records'];
 <div class="header-top"><h1>Product Profile</h1></div>
 
 <div style="width: 100%;display: flex; flex-direction: column;">
-   <div style="display: flex; flex-direction: column;">
+   <div style="width: 70%; display: flex; flex-direction: row; text-align: left;">
       <div><h2>Name:</h2></div>
-      <div><?php echo $list['name'];?></div>
+      <div><h2><?php echo $list['name'];?></h2></div>
    </div>
    <div>
        <h2>Price:</h2> <?php echo "P".$list['price'];?>
