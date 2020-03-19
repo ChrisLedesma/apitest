@@ -20,8 +20,10 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background-color: #45a29e;
 }
 input[type=text]:focus {
-  background-color: #45a29e;
-  border: 3px solid #555;
+  border: 3px solid #555;  
+}
+input[type=text]{  
+  background-color: #fff;
   background-image: url('searchicon.png');
   background-position: 10px 10px; 
   background-repeat: no-repeat;
