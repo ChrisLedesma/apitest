@@ -66,6 +66,7 @@ if($login_button == true){
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
 	</style>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
