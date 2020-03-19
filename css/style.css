@@ -66,6 +66,11 @@ input[type=text], input[type=number], select{
   justify-content: space-around;
   width: 40%;
 }
+.div-align-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .viewgal-wrap {
   display: flex;
   justify-content: space-around;
