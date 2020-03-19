@@ -72,7 +72,7 @@ if($login_button == true){
       background-color: #3b5998;
   border: none;
   color: white;
-  padding: 15px 23.1px;
+  padding: 15px 23.05px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -97,6 +97,8 @@ if($login_button == true){
 <div id="content-admin">
    <div id="empty-content-admin"></div>
        <div id="content-admin-wrap">
+	       <h3>You must login first before<br>
+	       accessing this site!<br></h3>
 <?php
         if($login_button == ''){
             switch($module){
@@ -132,8 +134,8 @@ if($login_button == true){
         }else{
           echo '<div align="center">'.$login_button . '</div>';
         }
-
         ?>
+	       
         <?php
               if(isset($facebook_login_url)){
             echo '<div align="center">' .$facebook_login_url. '</div>';
