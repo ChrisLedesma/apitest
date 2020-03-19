@@ -17,7 +17,7 @@ $final = array_splice($list, $offset, $limit); // splice them according to offse
 	     		<form method="POST" action="index.php?module=addProd">
 				<div><input type="submit" name="submit" value="Add Product">	</div>
 			</form>		
-            		<form method="POST" action="index.php?module=prod"></div>
+            		<form method="POST" action="index.php?module=prod">
 				<div>
 					<input type="text" name="search">
 					<input type="submit" name="submit" value="Search">
