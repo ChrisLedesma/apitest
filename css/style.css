@@ -318,7 +318,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    margin-top: 10vh;
 }
 #content {
   width: 100%;
