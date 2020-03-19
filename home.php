@@ -1,6 +1,6 @@
 
 
-<div style="background-color: none;
+<div style="background-color: #45a29e;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 50px 0px 50px 0px;  width: 50%; padding: 5vh 0vh 5vh 0vh;">
   <img src="<?php echo $_SESSION["user_image"] ?>" alt="profile pic" style="width:40%; margin: 0 auto;">
