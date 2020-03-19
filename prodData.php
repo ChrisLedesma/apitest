@@ -16,8 +16,18 @@ $list = $details['records'];
       flex-direction: row; 
       justify-content: flex-start;
    }
+   .info-col{
+      margin: 0 auto; 
+      margin-bottom: 5vh;
+      width: 70%; 
+      display: flex; 
+      flex-direction: row; 
+      justify-content: flex-start;
+   }
    .info{
-      max-width: 80%;
+      max-width: 100%;
+      min-width: 50%;
+      text-align: left;
    }
 </style>
 
@@ -37,8 +47,8 @@ $list = $details['records'];
           <h2> <?php echo "P".$list['price'];?></h2>
       </div>
    </div>
-   <div class="info-row">
-      <div class="info">
+   <div class="info-col">
+      <div class="info" style="margin-bottom: 5vh;">
           <h2>Description:</h2>
       </div>
        <div class="info">
