@@ -79,6 +79,9 @@ font-size: 24px;
 font-size: 24px;
   cursor: pointer;
 }
+	.login-font{
+	font-size: 24px;
+	}
 	</style>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
@@ -131,8 +134,8 @@ font-size: 24px;
                 break;
           }
         }else{
-          echo '<br><br><br><br><div align="center"><h1>You must first login before<br>
-	       accessing this site.<br><br><Br></h1>'.$login_button . '</div>';
+          echo '<br><br><br><br><div align="center"><p class="login-font">You must first login before<br>
+	       accessing this site.<br><br><Br></p>'.$login_button . '</div>';
         }
         ?>
 	       <br><br>
