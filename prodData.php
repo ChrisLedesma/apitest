@@ -16,6 +16,9 @@ $list = $details['records'];
       flex-direction: row; 
       justify-content: space-between;
    }
+   .info{
+      max-width: 80%;
+   }
 </style>
 
    <div class="empty-view"></div>
@@ -24,13 +27,13 @@ $list = $details['records'];
 <div style="width: 100%;display: flex; flex-direction: column;">
    <div class="info-row">
       <div><h2>Name:</h2></div>
-      <div><h2><?php echo $list['name'];?></h2></div>
+      <div class="info"><h2><?php echo $list['name'];?></h2></div>
    </div>
    <div class="info-row">
       <div>
           <h2>Price:</h2>
       </div>
-       <div>
+       <div class="info">
           <h2> <?php echo "P".$list['price'];?></h2>
       </div>
    </div>
@@ -38,7 +41,7 @@ $list = $details['records'];
       <div>
           <h2>Description:</h2>
       </div>
-       <div>
+       <div class="info">
           <h2> <?php echo $list['description'];?></h2>
       </div>
    </div>
@@ -46,7 +49,7 @@ $list = $details['records'];
       <div>
           <h2>Category:</h2>
       </div>
-       <div>
+       <div class="info">
           <h2><?php echo $list['category_name'];?>
       </div>
    </div>
