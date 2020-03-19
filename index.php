@@ -54,6 +54,9 @@ if($login_button == true){
 	.separator::after {
 	    margin-left: .25em;
 	}
+	input[type=text]{
+	  background-color: white;
+	}
 	</style>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
