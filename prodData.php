@@ -8,7 +8,8 @@ $list = $details['records'];
 
 ?>
    <div class="empty-view"></div>
-<h1>Product Profile</h1> <a href="index.php?module=editProd&id=<?php echo $list['id'];?>"">EDIT</a><br>
+<div class="header-top"><h1>Product Profile</h1></div>
+
 <div class="empty-small"></div>
 <div class="empty-small"></div>
 <div class="empty-small"></div>
@@ -36,4 +37,9 @@ $list = $details['records'];
 <div class="empty-view"></div>
 
 <div class="empty-view"></div>
-<a href="index.php?module=deleteProd&id=<?php echo $list['id'];?>"">DELETE</a>
+
+
+<div class="div-align-buttons">
+   <a href="index.php?module=editProd&id=<?php echo $list['id'];?>""><div class="button-custom">EDIT</div></a><br>
+   <a href="index.php?module=deleteProd&id=<?php echo $list['id'];?>""><div class="button-custom" style="background-color: red !important;">DELETE</div></a>
+</div>
