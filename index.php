@@ -57,6 +57,16 @@ if($login_button == true){
 	input[type=text]{
 	  background-color: white;
 	}
+	    .button {
+      background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 	</style>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
