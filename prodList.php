@@ -29,7 +29,7 @@ $final = array_splice($list, $offset, $limit); // splice them according to offse
 if(isset($_POST['search'])){
     $search = $_POST['search'];
     }
-	echo $search;
+	
     if(isset($search)){
         $json = file_get_contents('http://rdapi.herokuapp.com/product/search.php?s='.$search);
         $data = json_decode($json,true);
