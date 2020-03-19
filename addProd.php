@@ -9,7 +9,6 @@ $list = $data['records'];
 <style>
    
    .contain{
-    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgb(46, 49, 51);
@@ -43,8 +42,9 @@ $list = $data['records'];
 
    <div class="empty-view"></div>
 <div class="header-top"><h1>Add Product</h1></div>
-<form action="addProd_pro.php" method="POST">
+
 <div class="contain">
+   <form action="addProd_pro.php" method="POST">
       <div class="info-row">
          <div class="info" style="color: #45a29e;"><h2>Name:</h2></div>
          <div class="info"><input type="text" name="name" placeholder="name" required/></div>
