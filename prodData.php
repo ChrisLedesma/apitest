@@ -10,10 +10,10 @@ $list = $details['records'];
    <div class="empty-view"></div>
 <div class="header-top"><h1>Product Profile</h1></div>
 
-<div style="display: flex; flex-direction: column;">
+<div style="width: 100%;display: flex; flex-direction: column;">
    <div style="display: flex; flex-direction: column;">
-       <h2>Name:</h2>
-       <?php echo $list['name'];?>
+      <div><h2>Name:</h2></div>
+      <div><?php echo $list['name'];?></div>
    </div>
    <div>
        <h2>Price:</h2> <?php echo "P".$list['price'];?>
