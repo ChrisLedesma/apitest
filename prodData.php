@@ -42,16 +42,16 @@ $list = $details['records'];
 </style>
 
    <div class="empty-view"></div>
-<div class="header-top"><h1>Product Profile</h1></div>
+<div class="header-top"><h1>Product Information</h1></div>
 
 <div class="contain">
    <div class="info-row">
-      <div class="info"><h2>Name:</h2></div>
+      <div class="info"><h2 color="#45a29e" >Name:</h2></div>
       <div class="info"><h2><?php echo $list['name'];?></h2></div>
    </div>
    <div class="info-row">
       <div class="info">
-          <h2>Price:</h2>
+          <h2 color="#45a29e" >Price:</h2>
       </div>
        <div class="info">
           <h2> <?php echo "P".$list['price'];?></h2>
@@ -59,7 +59,7 @@ $list = $details['records'];
    </div>
    <div class="info-col">
       <div class="info" style="margin-bottom: 5vh;">
-          <h2>Description:</h2>
+          <h2 color="#45a29e" >Description:</h2>
       </div>
        <div class="info">
           <h2> <?php echo $list['description'];?></h2>
@@ -67,7 +67,7 @@ $list = $details['records'];
    </div>
    <div class="info-row">
       <div class="info">
-          <h2>Category:</h2>
+          <h2 color="#45a29e" >Category:</h2>
       </div>
        <div class="info">
           <h2><?php echo $list['category_name'];?>
