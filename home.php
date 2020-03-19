@@ -11,5 +11,5 @@
 </div>
 <h2>Welcome!: <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?> </h2>
 //Email: <?php echo $_SESSION['user_email_address'] ?>
-
+<br>
 <h3><a href="signout.php">Logout</a></h3>
