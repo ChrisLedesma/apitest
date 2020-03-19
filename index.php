@@ -3,8 +3,9 @@
 $module = (isset($_GET['module']) && $_GET['module'] != '') ? $_GET['module'] : '';
 $page = !isset($_GET['page']) ? 1 : $_GET['page'];
 include('config.php');
-  if($login_button == true){
-include('config2.php');
+if($login_button == true){?>
+	<div class="separator">or</div><?php
+	include('config2.php');
   }
 ?>
 <html>
@@ -36,6 +37,22 @@ include('config2.php');
 	}
 	select{
 		height: 2rem;
+	}
+	.separator {
+	    display: flex;
+	    align-items: center;
+	    text-align: center;
+	}
+	.separator::before, .separator::after {
+	    content: '';
+	    flex: 1;
+	    border-bottom: 1px solid #000;
+	}
+	.separator::before {
+	    margin-right: .25em;
+	}
+	.separator::after {
+	    margin-left: .25em;
 	}
 	</style>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
