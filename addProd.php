@@ -82,7 +82,7 @@ $list = $data['records'];
       </div>                       
  </div>
 
-<div class="div-align-buttons">
+<div class="div-align-button">
    <input type="submit" name="submit" value="Add Product"/> 
 </div>
       </form>                                                                                                                                         
