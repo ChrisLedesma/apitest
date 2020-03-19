@@ -97,8 +97,7 @@ if($login_button == true){
 <div id="content-admin">
    <div id="empty-content-admin"></div>
        <div id="content-admin-wrap">
-	       <h3>You must login first before<br>
-	       accessing this site!<br></h3>
+
 <?php
         if($login_button == ''){
             switch($module){
@@ -132,7 +131,8 @@ if($login_button == true){
                 break;
           }
         }else{
-          echo '<div align="center">'.$login_button . '</div>';
+          echo '<div align="center">	       <h3>You must login first before<br>
+	       accessing this site!<br></h3>'.$login_button . '</div>';
         }
         ?>
 	       
