@@ -14,14 +14,17 @@ $final = array_splice($list, $offset, $limit); // splice them according to offse
 ?>           
 <div class="empty-small"></div>
 	<div style="display: flex; flex-direction: row; justify-content: stretch; align-items: center;"
-			<form method="POST" action="index.php?module=prod">
+		<div> 	
+	     		<form method="POST" action="index.php?module=addProd">
+				<input type="submit" name="submit" value="Add Product">	
+			</form>
+		</div>
+		<div>
+            		<form method="POST" action="index.php?module=prod">
 				<input type="text" name="search">
 				<input type="submit" name="submit" value="Search">	
 			</form>
-            
-			<form method="POST" action="index.php?module=addProd">
-				<input type="submit" name="submit" value="Add Product">	
-			</form>
+		</div>
 	</div>
             <div class="empty-small"></div>
 <?php
