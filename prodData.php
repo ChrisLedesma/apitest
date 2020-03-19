@@ -8,6 +8,7 @@ $list = $details['records'];
 
 ?>
 <style>
+   
    .contain{
     width: 100%;
     display: flex;
@@ -46,28 +47,28 @@ $list = $details['records'];
 
 <div class="contain">
    <div class="info-row">
-      <div class="info"><h2 color="#45a29e" >Name:</h2></div>
+      <div class="info" style="color: #45a29e;"><h2>Name:</h2></div>
       <div class="info"><h2><?php echo $list['name'];?></h2></div>
    </div>
    <div class="info-row">
-      <div class="info">
-          <h2 color="#45a29e" >Price:</h2>
+      <div class="info" style="color: #45a29e;">
+          <h2>Price:</h2>
       </div>
        <div class="info">
           <h2> <?php echo "P".$list['price'];?></h2>
       </div>
    </div>
    <div class="info-col">
-      <div class="info" style="margin-bottom: 5vh;">
-          <h2 color="#45a29e" >Description:</h2>
+      <div class="info" style="margin-bottom: 5vh; color: #45a29e;"">
+          <h2 >Description:</h2>
       </div>
        <div class="info">
           <h2> <?php echo $list['description'];?></h2>
       </div>
    </div>
    <div class="info-row">
-      <div class="info">
-          <h2 color="#45a29e" >Category:</h2>
+      <div class="info" style="color: #45a29e;">
+          <h2>Category:</h2>
       </div>
        <div class="info">
           <h2><?php echo $list['category_name'];?>
