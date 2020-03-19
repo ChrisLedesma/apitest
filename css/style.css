@@ -6,7 +6,7 @@ a {
   text-decoration: none;
   color: lightblue;
 }
-input[type=button], input[type=submit], input[type=reset], .button-custom {
+input[type=button], input[type=submit], input[type=reset], input[type=number], input[type=select] .button-custom {
   background-color: darkslategrey;
   border: none;
   border-radius: 5px;
@@ -16,7 +16,7 @@ input[type=button], input[type=submit], input[type=reset], .button-custom {
   margin: 4px 2px;
   cursor: pointer;
 }
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, .button-custom:hover {
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=number]:hover, input[type=select]:hover, .button-custom:hover {
   background-color: #45a29e;
 }
 input[type=text]:focus {
