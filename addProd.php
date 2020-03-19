@@ -57,7 +57,7 @@ $list = $data['records'];
              <input type="number" name="price" placeholder="price" required/>
          </div>
       </div>
-      <div class="info-col">
+      <div class="info-row">
          <div class="info" style="margin-bottom: 5vh; color: #45a29e;"">
              <h2 >Description:</h2>
          </div>
