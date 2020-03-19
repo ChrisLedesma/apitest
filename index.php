@@ -131,11 +131,11 @@ if($login_button == true){
                 break;
           }
         }else{
-          echo '<div align="center">	       <h3>You must login first before<br>
-	       accessing this site!<br></h3>'.$login_button . '</div>';
+          echo '<div align="center"><h1>You must login first before<br>
+	       accessing this site!<br></h1>'.$login_button . '</div>';
         }
         ?>
-	       
+	       <br><br>
         <?php
               if(isset($facebook_login_url)){
             echo '<div align="center">' .$facebook_login_url. '</div>';
