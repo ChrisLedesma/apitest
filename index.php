@@ -131,7 +131,7 @@ if($login_button == true){
                 break;
           }
         }else{
-          echo '<div align="center"><h1>You must login first before<br>
+          echo '<br><br><br><br><div align="center"><h1>You must login first before<br>
 	       accessing this site!<br></h1>'.$login_button . '</div>';
         }
         ?>
