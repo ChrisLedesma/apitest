@@ -58,7 +58,7 @@ $list = $data['records'];
          </div>
       </div>
       <div class="info-row">
-         <div class="info" style="margin-bottom: 5vh; color: #45a29e;"">
+         <div class="info" style="color: #45a29e;"">
              <h2 >Description:</h2>
          </div>
           <div class="info">
