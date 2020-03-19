@@ -13,14 +13,16 @@ $total_pages = ceil($total_items / $limit);
 $final = array_splice($list, $offset, $limit); // splice them according to offset and limit
 ?>           
 <div class="empty-small"></div>
+	<div style="display: flex; flex-direction: row; justify-content: stretch; align-items: center;"
 			<form method="POST" action="index.php?module=prod">
 				<input type="text" name="search">
 				<input type="submit" name="submit" value="Search">	
 			</form>
-            <div class="empty-small"></div>
-            <form method="POST" action="index.php?module=addProd">
+            
+			<form method="POST" action="index.php?module=addProd">
 				<input type="submit" name="submit" value="Add Product">	
-            </form>
+			</form>
+	</div>
             <div class="empty-small"></div>
 <?php
 if(isset($_POST['search'])){
