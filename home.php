@@ -9,7 +9,7 @@
   <h2><?php echo $_SESSION['user_email_address'] ?></h2>
   </div>
 </div>
-<h2>Welcome, <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?>! </h2>
+<h1>Welcome, <?php echo $_SESSION['user_first_name'] ?> <?php echo $_SESSION['user_last_name'] ?>! </h1>
 
 <br><br>
-<a href="signout.php"><div style="padding: 5px 5px 5px 5px; background-color: red;">Logout</div></a></h3>
+<a href="signout.php"><div style="padding: 10px 10px 10px 10px; background-color: red; border-radius: 5px;">Logout</div></a></h3>
