@@ -61,9 +61,9 @@ input[type=text]{
 }
 .div-align-buttons{
   display: flex;
-  flex-direction: row;
-  justify-items: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
 }
 .viewgal-wrap {
   display: flex;
