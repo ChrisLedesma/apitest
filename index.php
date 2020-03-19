@@ -10,6 +10,7 @@ if($login_button == true){
 ?>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
 <style>
     body{
         background-color: #212529;
@@ -38,22 +39,7 @@ if($login_button == true){
 	select{
 		height: 2rem;
 	}
-	.separator {
-	    display: flex;
-	    align-items: center;
-	    text-align: center;
-	}
-	.separator::before, .separator::after {
-	    content: '';
-	    flex: 1;
-	    border-bottom: 1px solid #000;
-	}
-	.separator::before {
-	    margin-right: .25em;
-	}
-	.separator::after {
-	    margin-left: .25em;
-	}
+	
 	input[type=text]{
 	  background-color: white;
 	}
