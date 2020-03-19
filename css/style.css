@@ -307,14 +307,14 @@ body {
 }
 .sticky-content a,
 .sticky-content a:visited {
-  color: rgb(235, 218, 175);
+  color: #fff;
 }
 .sticky-content li {
   list-style-type: none;
-  color: rgb(235, 218, 175);
+  color: #fff;
 }
 .stick-content a:hover {
-  color: whitesmoke;
+  color: #45a29e;
 }
 /* button - reusable css */
 .new li,
