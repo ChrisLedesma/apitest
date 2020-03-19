@@ -58,7 +58,18 @@ if($login_button == true){
 	  background-color: white;
 	}
 	    .button-google {
-      background-color: #f44336;
+      background-color: #DB4437;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+	 .button-fb {
+      background-color: #3b5998;
   border: none;
   color: white;
   padding: 15px 32px;
