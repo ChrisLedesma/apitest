@@ -57,7 +57,7 @@ if($login_button == true){
 	input[type=text]{
 	  background-color: white;
 	}
-	    .button {
+	    .button-google {
       background-color: #f44336;
   border: none;
   color: white;
