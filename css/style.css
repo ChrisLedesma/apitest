@@ -309,10 +309,16 @@ body {
 }
 
 #content-admin-wrap {
-  width: 100vw;
-  max-width: 60vw;
-  height: fit-content;
-  border: 0px solid red;
+    width: 100vw;
+    max-width: 60vw;
+    height: fit-content;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 #content {
   width: 100%;
