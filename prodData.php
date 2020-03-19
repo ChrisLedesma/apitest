@@ -10,34 +10,30 @@ $list = $details['records'];
    <div class="empty-view"></div>
 <div class="header-top"><h1>Product Profile</h1></div>
 
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div>
-    <h2>Name:</h2> <?php echo $list['name'];?>
-</div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div>
-    <h2>Price:</h2> <?php echo "P".$list['price'];?>
-</div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div>
-    <h2>Description:</h2> <?php echo $list['description'];?>
-</div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div class="empty-small"></div>
-<div>
-    <h2>Category:</h2> <?php echo $list['category_name'];?>
-</div><br><br>
-<div class="empty-view"></div>
+<div style="display: flex; flex-direction: column;">
+   <div style="display: flex; flex-direction: column;">
+       <h2>Name:</h2>
+       <?php echo $list['name'];?>
+   </div>
+   <div>
+       <h2>Price:</h2> <?php echo "P".$list['price'];?>
+   </div>
+   <div class="empty-small"></div>
+   <div class="empty-small"></div>
+   <div class="empty-small"></div>
+   <div>
+       <h2>Description:</h2> <?php echo $list['description'];?>
+   </div>
+   <div class="empty-small"></div>
+   <div class="empty-small"></div>
+   <div class="empty-small"></div>
+   <div>
+       <h2>Category:</h2> <?php echo $list['category_name'];?>
+   </div><br><br>
+   <div class="empty-view"></div>
 
-<div class="empty-view"></div>
-
+   <div class="empty-view"></div>
+<div>
 
 <div class="div-align-buttons">
    <a href="index.php?module=editProd&id=<?php echo $list['id'];?>""><div class="button-custom">EDIT</div></a><br>
