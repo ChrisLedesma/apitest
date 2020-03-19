@@ -25,10 +25,7 @@ input[type=text]:focus {
 }
 input[type=text]{  
   background-color: #fff;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 10px;
 }
 .header-top{
   background-color: #45a29e;
