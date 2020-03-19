@@ -340,7 +340,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 10vh;
+    margin: 10vh 0vw 20vh 0vw;
 }
 #content {
   width: 100%;
