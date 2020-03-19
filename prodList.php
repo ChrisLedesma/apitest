@@ -12,7 +12,7 @@ $total_items = count($list); // total items
 $total_pages = ceil($total_items / $limit);
 $final = array_splice($list, $offset, $limit); // splice them according to offset and limit
 ?>
-<h2 style="text-align: center;">Products</h2>
+<div class="header-top"><h2>Products</h2></div>
 	<div style="width: 100%;display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin: 5vh 0vh 5vh 0vh;"		 	
 	     		<form method="POST" action="index.php?module=addProd">
 				<div><input type="submit" name="submit" value="Add Product">	
