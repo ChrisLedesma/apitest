@@ -67,6 +67,7 @@ if($login_button == true){
   display: inline-block;
 font-size: 24px;
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 	 .button-fb {
       background-color: #3b5998;
@@ -78,6 +79,7 @@ font-size: 24px;
   display: inline-block;
 font-size: 24px;
   cursor: pointer;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 	.login-font{
 	font-size: 48px;
